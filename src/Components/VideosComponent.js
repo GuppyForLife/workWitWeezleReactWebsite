@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { VIDEOS } from "../shared/videos";
 import { Link } from "react-router-dom";
+import { Stagger } from 'react-animation-components';
 
 const RenderVideoItem = ({video}) => {
     return (
@@ -18,30 +19,30 @@ const Videos = () => {
 
     return(
         <div className='image-rules'>
-            <div className='row'>
-                <div className='col-md-6'>
-                    <RenderVideoItem video={videos[1]} />
+                <div className='row'>
+                    <div className='col-md-6'>
+                        <RenderVideoItem video={videos[1]} />
+                    </div>
+                    <div className='col'>
+                        <RenderVideoItem video={videos[2]} />
+                    </div>
                 </div>
-                <div className='col'>
-                    <RenderVideoItem video={videos[2]} />
+                <div className='row'>
+                    <div className='col-md-6'>
+                        <RenderVideoItem video={videos[3]} />
+                    </div>
+                    <div className='col'>
+                        <RenderVideoItem video={videos[4]} />
+                    </div>
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col-md-6'>
-                    <RenderVideoItem video={videos[3]} />
+                <div className='row'>
+                    <div className='col-md-6'>
+                        <RenderVideoItem video={videos[5]} />
+                    </div>
+                    <div className='col'>
+                        <RenderVideoItem video={videos[6]} />
+                    </div>
                 </div>
-                <div className='col'>
-                    <RenderVideoItem video={videos[4]} />
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-md-6'>
-                    <RenderVideoItem video={videos[5]} />
-                </div>
-                <div className='col'>
-                    <RenderVideoItem video={videos[6]} />
-                </div>
-            </div>
         </div>
     );
 

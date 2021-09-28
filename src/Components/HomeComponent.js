@@ -19,7 +19,7 @@ const Home = () => {
                 <br />
                 <br />
             </div>
-            <div className='container-fluid mb-5'>
+            <div className='container mb-5'>
                 <h3 className='font-weight-bold'>2020 Demo Reel</h3>
                 <div className='embed-responsive embed-responsive-16by9'>
                     <iframe src={videos[0].source} allowFullScreen />

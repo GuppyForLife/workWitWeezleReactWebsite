@@ -13,6 +13,7 @@ import PromoVisuals from './PromoVisualsComponent';
 import MainPhotosPage from './PhotosComponent';
 import { BEHIND } from '../shared/bts';
 import PhotoCollection from './PhotoCollectionComponent';
+import { TransitionGroup } from 'react-transition-group';
 
 const Main = () => {
 
@@ -72,18 +73,20 @@ const Main = () => {
     return(
         <div>
             <Header />
-            <Switch>
-                <Route path='/home' component={HomePage} />
-                <Route exact path='/videos' component={VideosPage} />
-                <Route path='/videos/:videoId' component={VideoWithId} />
-                <Route exact path='/content' component={ContentPage} />
-                <Route path='/content/:contentVideoId' component={ContentWithId} />
-                <Route path='/contact' component={ContactPage} />
-                <Route path='/promo_visuals' component={PromoPage} />
-                <Route exact path='/photos' component={PhotosPage} />
-                <Route path='/photos/:photoId' component={PhotoWithId} />
-                <Redirect to='/home' />
-            </Switch>
+            <TransitionGroup>
+                <Switch>
+                    <Route path='/home' component={HomePage} />
+                    <Route exact path='/videos' component={VideosPage} />
+                    <Route path='/videos/:videoId' component={VideoWithId} />
+                    <Route exact path='/content' component={ContentPage} />
+                    <Route path='/content/:contentVideoId' component={ContentWithId} />
+                    <Route path='/contact' component={ContactPage} />
+                    <Route path='/promo_visuals' component={PromoPage} />
+                    <Route exact path='/photos' component={PhotosPage} />
+                    <Route path='/photos/:photoId' component={PhotoWithId} />
+                    <Redirect to='/home' />
+                </Switch>
+            </TransitionGroup>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoInfo = (props) => {
     return(
-        <div className='container mt-5'>
+        <div className='container mt-5 mb-5'>
             <div className='row'>
                 <div className='col'>
                     <h1 className='font-weight-bold'>{props.video.title} - {props.video.artist}</h1><br/>
