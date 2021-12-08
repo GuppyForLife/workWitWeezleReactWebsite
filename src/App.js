@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <div className="App">
         <Main />
       </div>
