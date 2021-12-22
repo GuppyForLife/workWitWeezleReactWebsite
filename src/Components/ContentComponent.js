@@ -29,18 +29,26 @@ const Content = () => {
             <div className='image-rules'>
                 <div className='row'>
                     <div className='col-md-6'>
-                        <RenderContentItem contentVideo={contentVideos[0]} />
+                        <RenderContentItem contentVideo={contentVideos[4]} />
                     </div>
                     <div className='col'>
-                        <RenderContentItem contentVideo={contentVideos[3]} />
+                        <RenderContentItem contentVideo={contentVideos[5]} />
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col-md-6'>
-                        <RenderContentItem contentVideo={contentVideos[2]} />
+                        <RenderContentItem contentVideo={contentVideos[1]} />
                     </div>
                     <div className='col'>
-                        <RenderContentItem contentVideo={contentVideos[1]} />
+                        <RenderContentItem contentVideo={contentVideos[2]} />
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-md-6'>
+                        <RenderContentItem contentVideo={contentVideos[0]} />
+                    </div>
+                    <div className='col'>
+                        <RenderContentItem contentVideo={contentVideos[3]} />
                     </div>
                 </div>
             </div>

@@ -30,5 +30,21 @@ export const CONTENTVIDEOS = [
         source: 'https://www.youtube.com/embed/v2mC76nrVk4',
         thumbnail: '/Images/christmasShopping.jpeg',
         artist: '#BadBatchBoys YouTube Channel'
+    },
+    
+    {
+        id: 4,
+        title: 'ZoneOut Fest Mini-Doc',
+        source: 'https://www.youtube.com/embed/kUa8vboreF0',
+        thumbnail: '/Images/ZoneOutFest-Nov.jpeg',
+        artist: 'NovTheZoner YouTube Channel'
+    },
+    
+    {
+        id: 5,
+        title: 'Full Moon Festival Recap',
+        source: 'https://www.youtube.com/embed/Qckn7CyS6k0',
+        thumbnail: '/Images/FullmoonFest-15.jpeg',
+        artist: '#WorkWitWeezle YouTube Channel'
     }
 ]
