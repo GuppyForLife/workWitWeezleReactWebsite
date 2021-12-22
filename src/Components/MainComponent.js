@@ -75,7 +75,7 @@ const Main = () => {
             <Header />
             <TransitionGroup>
                 <Switch>
-                    <Route path='/' component={HomePage} />
+                    <Route path='/home' component={HomePage} />
                     <Route exact path='/videos' component={VideosPage} />
                     <Route path='/videos/:videoId' component={VideoWithId} />
                     <Route exact path='/content' component={ContentPage} />
@@ -84,7 +84,7 @@ const Main = () => {
                     <Route path='/promo_visuals' component={PromoPage} />
                     <Route exact path='/photos' component={PhotosPage} />
                     <Route path='/photos/:photoId' component={PhotoWithId} />
-                    <Redirect to='/' />
+                    <Redirect to='/home' />
                 </Switch>
             </TransitionGroup>
         </div>
