@@ -4,15 +4,9 @@ Live Site: https://matthewjovenal-workwitweezle.netlify.app/
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-
-### Screenshot
-
-![](./Images/screencapture-matthewjovenal-workwitweezle-netlify-app-home-2021-12-24-00_08_05.png)
 
 ## My process
 
