@@ -23,5 +23,5 @@ I started with by using "create-react-app. I started with my focus on the Nav ba
 ## Author
 
 - Website - [Matthew Jovenal](https://github.com/GuppyForLife)
-- LinkedIn - [Matthew Jovenal](www.linkedin.com/in/matthew-jovenal
+- LinkedIn - [Matthew Jovenal](https://www.linkedin.com/in/matthew-jovenal
 )
