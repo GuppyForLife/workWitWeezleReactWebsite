@@ -12,7 +12,7 @@ Live Site: https://matthewjovenal-workwitweezle.netlify.app/
 
 ### Screenshot
 
-![](.public/Images/screencapture-matthewjovenal-workwitweezle-netlify-app-home-2021-12-24-00_08_05.png)
+![](./Images/screencapture-matthewjovenal-workwitweezle-netlify-app-home-2021-12-24-00_08_05.png)
 
 ## My process
 
