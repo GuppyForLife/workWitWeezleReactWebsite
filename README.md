@@ -1,4 +1,4 @@
-This is a portfolio showcase website for a videographer and artist known as WorkWitWeezle. The website if mobile responsive to all sizes with a responsive navigation. I used React.js and some React.js community libraries such as Reacstrap. The website is hosted on Netlify.
+This is a portfolio showcase website for a videographer and artist known as WorkWitWeezle. The website is mobile responsive to all sizes with a responsive navigation. I used React.js and some React.js community libraries such as Reacstrap. The website is hosted on Netlify.
 
 Live Site: https://matthewjovenal-workwitweezle.netlify.app/
 
